@@ -13,7 +13,7 @@ def draw_bar_chart(names, values, barPath, title='species', rotation='0', save=F
         plt.savefig(barPath)
     if show:
         plt.show()
-    plt.clf()
+    plt.clf() 
 
 def draw_multiline():
     pass
